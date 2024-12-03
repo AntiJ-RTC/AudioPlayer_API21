@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CSI460"
+        android:text="CSI460 Jerome"
         android:id="@+id/textView"
         android:layout_below="@+id/textview"
         android:layout_centerHorizontal="true"
@@ -30,13 +30,16 @@
         android:src="@drawable/abc"/>
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/forward"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/forward" />
 
     <Button
         android:layout_width="wrap_content"
